@@ -1,0 +1,189 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: #dfe0df;
+}
+.container{
+   max-width: 1300px;
+   margin: auto;
+   padding-left: 25px;
+   padding-right: 25px;
+
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+}
+nav{
+  flex:1;
+  text-align: right;
+
+}
+nav ul{
+  display:inline-block;
+  list-style-type: none;
+
+}
+nav ul li{
+  display:inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
+p{
+  color: grey;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  align-items: centre;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.col-2{
+  flex-basis: 50%;
+  min-width:300px;
+}
+.col-2 img{
+  max-width: 500px ;
+  padding: 50px 0;
+  border: 2px solid #ff523b;
+  border-radius: 25px;
+}
+.col-2 h1{
+  font-size: 50px;
+  line-height: 62px;
+  margin:25px 0;
+  font-style: Montserrat;
+}
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding:8px 30px;
+  margin:30px 0;
+  border-radius:30px;
+  transition:background 0.5s;
+}
+
+.header .row{
+  margin-top: 70px;
+
+}
+
+.btn:hover{
+  background: #563434;
+}
+
+.catergories{
+  margin:70px 0;
+
+}
+.row .col-3{
+  display: flex;
+}
+.col-3{
+
+  flex-basis:30%;
+  padding: 10px;
+  min-width: 100px;
+  margin-bottom:50px;
+  flex-wrap: wrap;
+  border:5px solid #fff;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.col-3 img{
+  width:200px;
+  height:200px;
+  max-width:100%;
+  background-color: #fff;
+  filter: drop-shadow(1px 1px 3px $color-secondary);
+}
+
+
+
+.col-3 img:hover{
+  transform: scaleX(-1);
+
+}
+
+
+
+h4{
+  color: #555555;
+
+}
+.small-conatiner{
+  max-width: 1080px;
+  margin:auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+
+
+
+
+.card{
+  background-color: #fff;
+  display: flex;
+
+}
+
+.desc{
+  background-color: white;
+}
+.desc .productdetails h4{
+  background-color: #fff;
+}
+
+.features{
+  display:flex;
+}
+
+.features .options{
+  padding-right: 150px;
+
+}
+.optionslist{
+  padding-top: 30px;
+}
+.optionslist li{
+  margin-top: 50px;
+  margin-left:50px;
+
+}
+li{
+  color: grey;
+  list-style-type: none;
+}
+
+.ul2 .ul1 {
+  margin-top: 5px;
+}
+
+
+
+.price{
+  background-color: #fff;
+  padding-top: 110px;
+  font-size: 2em;
+}
+.desc .rating {
+  background-color: white;
+}
+.rating .fa {
+  color: #ff523b;
+}
+.rating i {
+  background-color: white;
+}
